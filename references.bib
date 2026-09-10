@@ -1,0 +1,289 @@
+% ============================================================
+%  references.bib  —  ConvoShield / TrustDrift project
+%  Keys map to the [P#] tags used in our discussion.
+%  Verified arXiv IDs as of 10 Sep 2026.
+%  TODO markers = author lists I could not fully verify; fill
+%  them in from the arXiv page before submitting.
+% ============================================================
+
+% ---------- Group A: chat-based social engineering ----------
+
+@inproceedings{P1_ai2024convosentinel,
+  title     = {Defending Against Social Engineering Attacks in the Age of {LLMs}},
+  author    = {Ai, Lin and Kumarage, Tharindu and Bhattacharjee, Amrita and
+               Liu, Zizhou and Hui, Zheng and Davinroy, Michael and Cook, James and
+               Cassani, Laura and Trapeznikov, Kirill and Kirchner, Matthias and
+               Basharat, Arslan and Hoogs, Anthony and Garland, Joshua and
+               Liu, Huan and Hirschberg, Julia},
+  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in
+               Natural Language Processing (EMNLP)},
+  pages     = {12880--12902},
+  year      = {2024},
+  publisher = {Association for Computational Linguistics},
+  eprint    = {2406.12263},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url       = {https://arxiv.org/abs/2406.12263}
+}
+
+@article{P2_kumarage2025personalized,
+  title   = {Personalized Attacks of Social Engineering in Multi-turn
+             Conversations: {LLM} Agents for Simulation and Detection},
+  author  = {Kumarage, Tharindu and others}, % TODO full author list
+  journal = {arXiv preprint arXiv:2503.15552},
+  year    = {2025},
+  eprint  = {2503.15552},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2503.15552}
+}
+
+@article{P14_beyonddetection2026,
+  title   = {Beyond Detection: Evaluating Defensive {LLMs} Against
+             {AI}-Generated Social Engineering in Live Turn-by-Turn Interaction},
+  author  = {{TODO author list}},
+  journal = {arXiv preprint arXiv:2608.10239},
+  year    = {2026},
+  eprint  = {2608.10239},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2608.10239}
+}
+
+@article{P18_anatomy2026,
+  title   = {The Anatomy of Conversational Scams: A Topic-Based Red Teaming
+             Analysis of Multi-Turn Interactions in {LLMs}},
+  author  = {{TODO author list}},
+  journal = {arXiv preprint arXiv:2601.03134},
+  year    = {2026},
+  eprint  = {2601.03134},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2601.03134}
+}
+
+% ---------- Group B: framing ----------
+
+@article{P3_xu2026duality,
+  title   = {{LLM} agents security duality: a comprehensive survey of
+             self-security and empowered cybersecurity},
+  author  = {Xu, Yiwei and Zhuang, Yong and Liu, Xuanming and Zhang, Tian and
+             Xiao, Bowen and Xu, Xiaoyang and Jiang, Delong and Wang, Juan and
+             Hu, Hongxin},
+  journal = {Artificial Intelligence Review},
+  year    = {2026},
+  doi     = {10.1007/s10462-026-11563-0},
+  eprint  = {2606.28450},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2606.28450}
+}
+
+% ---------- Group C: multi-turn attacks ----------
+
+@inproceedings{P4_russinovich2025crescendo,
+  title     = {Great, Now Write an Article About That: The Crescendo
+               Multi-Turn {LLM} Jailbreak Attack},
+  author    = {Russinovich, Mark and Salem, Ahmed and Eldan, Ronen},
+  booktitle = {34th USENIX Security Symposium (USENIX Security 25)},
+  year      = {2025},
+  eprint    = {2404.01833},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/2404.01833}
+}
+
+@article{P15_safedialbench2025,
+  title   = {{SafeDialBench}: A Fine-Grained Safety Evaluation Benchmark for
+             Large Language Models in Multi-Turn Dialogues with Diverse
+             Jailbreak Attacks},
+  author  = {{TODO author list}},
+  journal = {arXiv preprint arXiv:2502.11090},
+  year    = {2025},
+  eprint  = {2502.11090},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2502.11090}
+}
+
+@article{P16_multibreak2026,
+  title   = {{MultiBreak}: A Scalable and Diverse Multi-turn Jailbreak
+             Benchmark for Evaluating {LLM} Safety},
+  author  = {{TODO author list}},
+  journal = {arXiv preprint arXiv:2605.01687},
+  year    = {2026},
+  eprint  = {2605.01687},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2605.01687}
+}
+
+@article{P17_thrd2026,
+  title   = {{THRD}: A Training-Free Multi-Turn Defense Framework for
+             Jailbreak Attacks on Large Language Models},
+  author  = {{TODO author list}},
+  journal = {arXiv preprint arXiv:2606.01738},
+  year    = {2026},
+  eprint  = {2606.01738},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2606.01738}
+}
+
+% ---------- Group D: agent security benchmarks ----------
+
+@inproceedings{P6_debenedetti2024agentdojo,
+  title     = {{AgentDojo}: A Dynamic Environment to Evaluate Prompt Injection
+               Attacks and Defenses for {LLM} Agents},
+  author    = {Debenedetti, Edoardo and Zhang, Jie and Balunovi{\'c}, Mislav and
+               Beurer-Kellner, Luca and Fischer, Marc and Tram{\`e}r, Florian},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)
+               Datasets and Benchmarks Track},
+  year      = {2024},
+  eprint    = {2406.13352},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/2406.13352}
+}
+
+@inproceedings{P7_zhan2024injecagent,
+  title     = {{InjecAgent}: Benchmarking Indirect Prompt Injections in
+               Tool-Integrated Large Language Model Agents},
+  author    = {Zhan, Qiusi and Liang, Zhixiang and Ying, Zifan and Kang, Daniel},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2024},
+  pages     = {10471--10506},
+  year      = {2024},
+  publisher = {Association for Computational Linguistics},
+  doi       = {10.18653/v1/2024.findings-acl.624},
+  eprint    = {2403.02691},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/2403.02691}
+}
+
+@article{P8_zhang2025asb,
+  title   = {Agent Security Bench ({ASB}): Formalizing and Benchmarking
+             Attacks and Defenses in {LLM}-based Agents},
+  author  = {Zhang, Hanrong and Huang, Jingyuan and Mei, Kai and Yao, Yifei and
+             Wang, Zhenting and Zhan, Chenlu and Wang, He and Zhang, Yongfeng},
+  journal = {arXiv preprint arXiv:2410.02644},
+  year    = {2025},
+  eprint  = {2410.02644},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2410.02644}
+}
+
+@inproceedings{P9_ruan2024toolemu,
+  title     = {Identifying the Risks of {LM} Agents with an {LM}-Emulated Sandbox},
+  author    = {Ruan, Yangjun and Dong, Honghua and Wang, Andrew and
+               Pitis, Silviu and Zhou, Yongchao and Ba, Jimmy and
+               Dubois, Yann and Maddison, Chris J. and Hashimoto, Tatsunori},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2024},
+  eprint    = {2309.15817},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/2309.15817}
+}
+
+% ---------- Group E: adaptive attacks ----------
+
+@article{P5_nasr2025attacker,
+  title   = {The Attacker Moves Second: Stronger Adaptive Attacks Bypass
+             Defenses Against {LLM} Jailbreaks and Prompt Injections},
+  author  = {Nasr, Milad and Carlini, Nicholas and Sitawarin, Chawin and
+             Schulhoff, Sander V. and Hayes, Jamie and Ilie, Michael and
+             Pluto, Juliette and Song, Shuang and Chaudhari, Harsh and
+             Shumailov, Ilia and Thakurta, Abhradeep and Xiao, Kai Yuanqing and
+             Terzis, Andreas and Tram{\`e}r, Florian},
+  journal = {arXiv preprint arXiv:2510.09023},
+  year    = {2025},
+  eprint  = {2510.09023},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2510.09023}
+}
+
+@inproceedings{P11_zhan2025adaptive,
+  title     = {Adaptive Attacks Break Defenses Against Indirect Prompt
+               Injection Attacks on {LLM} Agents},
+  author    = {Zhan, Qiusi and others}, % TODO full author list
+  booktitle = {Findings of the Association for Computational Linguistics: NAACL 2025},
+  year      = {2025},
+  eprint    = {2503.00061},
+  archivePrefix = {arXiv},
+  url       = {https://arxiv.org/abs/2503.00061}
+}
+
+@article{P19_autodojo2026,
+  title   = {{AutoDojo}: Adaptive Black-Box Attacks Reveal the Limits of
+             {IPI} Defenses and Task-Specification Effects in {LLM} Agents},
+  author  = {{TODO author list}},
+  journal = {arXiv preprint arXiv:2606.15057},
+  year    = {2026},
+  eprint  = {2606.15057},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2606.15057}
+}
+
+% ---------- Group F: trajectory monitoring ----------
+
+@article{P12_traces2026,
+  title   = {{TRACES}: Proactive Safety Auditing for Multi-Turn {LLM} Agents
+             via Trajectory-State Modeling},
+  author  = {{TODO author list}},
+  journal = {arXiv preprint arXiv:2605.27690},
+  year    = {2026},
+  eprint  = {2605.27690},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2605.27690}
+}
+
+@article{P13_tracesafe2026,
+  title   = {{TraceSafe}: A Systematic Assessment of {LLM} Guardrails on
+             Multi-Step Tool-Calling Trajectories},
+  author  = {{TODO author list}},
+  journal = {arXiv preprint arXiv:2604.07223},
+  year    = {2026},
+  eprint  = {2604.07223},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2604.07223}
+}
+
+@article{P10_chennabasappa2025llamafirewall,
+  title   = {{LlamaFirewall}: An Open Source Guardrail System for Building
+             Secure {AI} Agents},
+  author  = {Chennabasappa, Sahana and Nikolaidis, Cyrus and Song, Daniel and
+             Molnar, David and Ding, Stephanie and Wan, Shengye and others},
+  journal = {arXiv preprint arXiv:2505.03574},
+  year    = {2025},
+  eprint  = {2505.03574},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2505.03574}
+}
+
+@article{P20_luo2026agentauditor,
+  title   = {{AgentAuditor}: Human-Level Safety and Security Evaluation
+             for {LLM} Agents},
+  author  = {Luo, Hanjun and Dai, Shenyu and Ni, Chiming and Li, Xinfeng and
+             Zhang, Guibin and Wang, Kun and Liu, Tongliang and Salam, Hanan},
+  journal = {arXiv preprint arXiv:2506.00641},
+  year    = {2026},
+  eprint  = {2506.00641},
+  archivePrefix = {arXiv},
+  url     = {https://arxiv.org/abs/2506.00641}
+}
+
+% ---------- Carried over from the original deck ----------
+
+@inproceedings{roy2024phishbots,
+  title     = {From Chatbots to Phishbots? Phishing Scam Generation in
+               Commercial Large Language Models},
+  author    = {Roy, Sayak Saha and others},
+  booktitle = {IEEE Symposium on Security and Privacy (S\&P)},
+  pages     = {36--54},
+  year      = {2024}
+}
+
+@article{longtchi2024survey,
+  title   = {Internet-based Social Engineering Psychology, Attacks, and
+             Defenses: A Survey},
+  author  = {Longtchi, Theodore T. and others},
+  journal = {Proceedings of the IEEE},
+  year    = {2024}
+}
+
+@inproceedings{montanez2022killchain,
+  title     = {Cyber Social Engineering Kill Chain},
+  author    = {Montanez Rodriguez, Rosana and Xu, Shouhuai},
+  booktitle = {Science of Cyber Security (SciSec)},
+  year      = {2022}
+}
